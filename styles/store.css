@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/* Css document for Oscar Peterson Website
+    Developed by: Alexandra Ewbank
+    Script Date: November 6,2022
+*/
+
+/* resetting the layout */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* styling the body selector */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #D2D7DF;
+}
+
+/* styling the header id selector */
+#header {
+    background-color: #353535;
+    height: 80px;
+        /* Set a minimum width to prevent content from being squeezed below when the window becomes too narrow */
+        min-width:750px;
+}
+
+/* styling the nav id selector */
+#header #nav {
+    margin-left: 50px;
+}
+
+#header #nav ul {
+    list-style-type: none;
+    line-height: 80px;
+}
+
+#header #nav ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+    line-height: 80px;
+}
+
+#header #nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+#header #nav ul li a:hover {
+    border-bottom: 1px solid #BDBBB0;
+    color: #BDBBB0;
+}
+
+/* styling the icon class selector */
+#header .icon {
+    margin-right: 50px;
+
+}
+
+#header .icon ul {
+    line-height: 80px;
+
+}
+
+.icon ul li {
+    float: right;
+    margin-right: 20px;
+    list-style-type: none;
+
+}
+
+.icon ul li a {
+    color: #ffffff;
+}
+
+.icon ul li a:hover {
+    color: #BDBBB0;
+}
+
+/* styling the main id selector */
+#store-main {
+    /* float: left; */
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid pink; */
+}
+
+/* styling the title class selector inside main section */
+#store-main .title {
+    /* float: left; */
+    height: 30px;
+    line-height: 40px;
+    text-align: left;
+    padding: 10px 10px 30px 30px;
+    /* border: 1px solid blue; */
+}
+
+/* styling the products class inside the main section */
+#store-main .products {
+    background-color: rgb(255, 255, 255);
+    height: 1800px;
+    width: 700px;
+}
+
+#store-main .products_title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px 0 0 35px;
+}
+
+#store-main .product_img {
+    width: 400px;
+    padding: 30px;
+    float: left;
+}
+
+#store-main .price {
+    font-size: 25px;
+    padding: 30px;
+}
+
+#store-main .product_form {
+    font-size: 20px;
+    line-height: 35px;
+    margin: 200px 0 0 0;
+}
+
+#store-main .shirt_description {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px 20px 0 0;
+    padding:10px 10px;
+    text-align: justify;
+}
+
+#store-main .bag_description {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px 20px 350px 0;
+    padding:10px 10px;
+    text-align: justify;
+}
+
+#store-main .button {
+    font-weight: bold;
+    padding: 7px;
+    margin: 10px 0 0 0;
+    border-radius: 15px;
+}
+
+#store-main .individual_product {
+    height: 700px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* styling the footer id selector */
+#footer {
+    padding: 10px;
+    background-color: #353535;
+    color: #ffffff;
+    height: 80px;
+    text-align: center;
+    clear: both;
+}
+
+#footer .newsletter p {
+    margin: 10px;
+}
+
+#footer .newsletter .copyright {
+    font-size: 10px;
+}
