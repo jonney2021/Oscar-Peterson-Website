@@ -83,7 +83,7 @@ body {
 /* styling the main id selector */
 #store-main {
     /* float: left; */
-    width: 700px;
+    width: 1000px;
     margin: 0 auto;
     padding: 20px;
     /* border: 1px solid pink; */
@@ -115,7 +115,7 @@ body {
 
 #store-main .product_img {
     width: 400px;
-    padding: 30px;
+    padding: 30px 50px 30px 30px;
     float: left;
 }
 
@@ -127,7 +127,7 @@ body {
 #store-main .product_form {
     font-size: 20px;
     line-height: 35px;
-    margin: 200px 0 0 0;
+    margin: 140px 0 0 0;
 }
 
 #store-main .shirt_description {
@@ -141,7 +141,7 @@ body {
 #store-main .bag_description {
     font-size: 14px;
     line-height: normal;
-    margin: 0px 20px 350px 0;
+    margin: 0px 20px 300px 0;
     padding:10px 10px;
     text-align: justify;
 }
@@ -155,8 +155,16 @@ body {
 
 #store-main .individual_product {
     height: 700px;
+    width: 1000px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#store-main .quantity {
+width: 20px;
+text-align: center;
+padding: 2px;
+
 }
 
 /* styling the footer id selector */
