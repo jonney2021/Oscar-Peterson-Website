@@ -113,6 +113,10 @@ td {
     font-size: 14px;
 }
 
+.album tr:hover {
+    background-color: #BDBBB0;
+}
+
 .album .td1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
